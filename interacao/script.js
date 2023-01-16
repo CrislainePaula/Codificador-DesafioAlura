@@ -27,10 +27,9 @@ function descriptografar(){
 }
 
 function copiar() {
-    var textoCop =  document.getElementById('output').innerHTML = '<textarea readonly id="output">' + result5 + 
-    '</textarea>';
+    var textoCop =  document.getElementById('input-texto');
   
-    textoCop.select();
+    textoCop.select('output');
     document.execCommand('copy');
     alert("Texto copiado para área de transferência.");
 }  
