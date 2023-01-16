@@ -28,7 +28,7 @@ function descriptografar(){
 
 function copiar() {
     var textoCop =  document.getElementById('output').innerHTML = '<textarea readonly id="input-texto">' + result5 + 
-    '</textarea>' + '<button class="btn-copiar" id="copiar" onclick="copiar()">Copiar</button>';
+    '</textarea>';
   
     textoCop.select();
     document.execCommand('copy');
