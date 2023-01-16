@@ -29,7 +29,7 @@ function descriptografar(){
 function copiar() {
     var textoCop =  document.getElementById('input-texto');
   
-    textoCop.select('output');
+    textoCop.select("#output");
     document.execCommand('copy');
     alert("Texto copiado para área de transferência.");
 }  
